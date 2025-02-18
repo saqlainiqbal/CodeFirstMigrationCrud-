@@ -10,7 +10,6 @@ namespace CodeFirstMigrationCrud.Controllers
    {
       private readonly VideoGameDbContext _context = context;
       // The old Way I liked it but if you want to Avoid IDE Message use primary constructor method
-      // private readonly VideoGameDbContext _context;
       //public VideoGameController(VideoGameDbContext context)
       //{
       //   this._context = context;
